@@ -75,6 +75,7 @@ header {
 	width: 100%;
 	padding: 1.75rem 0;
 	border-bottom: 1.5px solid #376490;
+	margin-bottom: 16px;
 	.header_inner {
 		width: 90%;
 		margin: 0 auto;
@@ -131,4 +132,9 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 textarea {
 	min-height: 200px;
+}
+
+.notice {
+	margin-top: 32px;
+	padding-top: 0px;
 }

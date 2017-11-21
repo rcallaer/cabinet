@@ -6,7 +6,7 @@ class DocsController < ApplicationController
 	end
 
 	def show
-		@doc = Doc.find(params[:id])
+		find_doc
 	end
 
 	def new
